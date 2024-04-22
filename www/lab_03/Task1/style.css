@@ -1,0 +1,27 @@
+.table {
+    border-collapse: collapse;
+    width: 500px;
+}
+.table th {
+    background-color: #dae1f8;
+    border: 1px solid #6395ff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+.table td {
+    border: 1px solid #6395ff;
+    padding: 5px 10px;
+}
+.table tfoot td {
+    border: none;
+}
+.table tfoot {
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
+.table td,
+.table th {
+    padding: 5px 10px;
+}
+

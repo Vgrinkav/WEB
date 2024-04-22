@@ -1,0 +1,55 @@
+.container {
+    width: 240px;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.image img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.properties {
+    text-align: center;
+}
+
+.properties h2 {
+    margin-bottom: 10px;
+}
+
+.properties p {
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+}
+
+.edit-button, .delete-button {
+    padding: 6px 12px;
+    margin: 0 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 3px solid #4c91af;
+}
+
+.delete-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 3px solid #f44336;
+}
+
+.edit-button:hover, .delete-button:hover {
+    filter: brightness(75%);
+}
